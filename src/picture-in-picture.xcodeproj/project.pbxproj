@@ -14,6 +14,7 @@
 		5B03F22C1B98B3220097B291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B03F22A1B98B3220097B291 /* LaunchScreen.storyboard */; };
 		5B03F2371B98B3220097B291 /* picture_in_pictureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B03F2361B98B3220097B291 /* picture_in_pictureTests.swift */; };
 		5B03F2421B98B3220097B291 /* picture_in_pictureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B03F2411B98B3220097B291 /* picture_in_pictureUITests.swift */; };
+		5B03F2521B9907BA0097B291 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B03F2511B9907BA0097B291 /* WebViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		5B03F31E1B99214D0097B291 /* 24-around-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B03F2561B99214D0097B291 /* 24-around-7.png */; settings = {ASSET_TAGS = (); }; };
 		5B03F31F1B99214D0097B291 /* 60-around-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B03F2571B99214D0097B291 /* 60-around-7.png */; settings = {ASSET_TAGS = (); }; };
 		5B03F3201B99214D0097B291 /* airplane-symbol-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B03F2581B99214D0097B291 /* airplane-symbol-7.png */; settings = {ASSET_TAGS = (); }; };
@@ -247,6 +248,7 @@
 		5B03F23D1B98B3220097B291 /* picture-in-pictureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "picture-in-pictureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B03F2411B98B3220097B291 /* picture_in_pictureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picture_in_pictureUITests.swift; sourceTree = "<group>"; };
 		5B03F2431B98B3220097B291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B03F2511B9907BA0097B291 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		5B03F2561B99214D0097B291 /* 24-around-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24-around-7.png"; sourceTree = "<group>"; };
 		5B03F2571B99214D0097B291 /* 60-around-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-around-7.png"; sourceTree = "<group>"; };
 		5B03F2581B99214D0097B291 /* airplane-symbol-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airplane-symbol-7.png"; sourceTree = "<group>"; };
@@ -500,6 +502,7 @@
 				5B03F2541B9921240097B291 /* Resources */,
 				5B03F2211B98B3220097B291 /* AppDelegate.swift */,
 				5B03F2231B98B3220097B291 /* ViewController.swift */,
+				5B03F2511B9907BA0097B291 /* WebViewController.swift */,
 				5B03F22A1B98B3220097B291 /* LaunchScreen.storyboard */,
 				5B03F2251B98B3220097B291 /* Main.storyboard */,
 				5B03F2281B98B3220097B291 /* Assets.xcassets */,
@@ -1072,6 +1075,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B03F2241B98B3220097B291 /* ViewController.swift in Sources */,
+				5B03F2521B9907BA0097B291 /* WebViewController.swift in Sources */,
 				5B03F2221B98B3220097B291 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
